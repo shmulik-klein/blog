@@ -1,0 +1,17 @@
+baseURL = "https://shmulik-klein.github.io/"
+languageCode = "en-us"
+title = "coding-journal"
+
+theme = "hyde-hyde"
+
+[params]
+    author = "Shmulik Klein"
+    title = "coding-journal"
+    # description = "..."
+    authorimage = "/img/logo.jpeg"
+
+[params.social]
+    twitter = "klein_sh"
+    stackoverflow = "2776473"
+    github = "shmulik-klein"
+ 
