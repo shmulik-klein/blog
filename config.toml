@@ -1,17 +1,49 @@
-baseURL = "https://shmulik-klein.github.io/"
-languageCode = "en-us"
-title = "coding-journal"
-
-theme = "hyde-hyde"
-
+theme = 'devise'
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Coding Journal'
+copyright = "&copy; Copyright 2022, Shmulik Klein"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = -100
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    title = "Categories"
+    url = "/categories/"
+    weight = -90
 [params]
-    author = "Shmulik Klein"
-    title = "coding-journal"
-    # description = "..."
-    authorimage = "/img/logo.jpeg"
-
-[params.social]
-    twitter = "klein_sh"
-    stackoverflow = "2776473"
-    github = "shmulik-klein"
- 
+  description = "Some description on me"      # Your meta description of the site
+  header_title = "Coding Journal"                 # Your header title
+  header_subtitle = "Your Creative Subtitle" # Your header subtitle
+  home_image = "logo.jpeg"          # Path to header image starting from the static directory
+  recent_posts = 5                           # Max amount of recent posts to show
+  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+  [params.style]                             # CSS style overrides
+    backgroundColor = "#f8f9fa"
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "fab fa-twitter fa-1x"
+    href = "https://twitter.com/klein_sh"
+  [[params.social]]
+    fa_icon = "fab fa-linkedin-in fa-1x"
+    href = "https://www.linkedin.com/in/shmulik-klein/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BuBzQ49WXS3K1iGjTur%2Fycw%3D%3D"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+    href = "http://github.com/shmulik-klein"      # Link to associate with icon (http://, https://, mailto:)
+  [[params.social]]
+    fa_icon = "fab fab fa-stack-overflow"
+    href = "https://stackoverflow.com/users/2776473/shmulik-klein"
+  [[params.social]]
+    fa_icon = "fas fa-at fa-1x"
+    href = ""
