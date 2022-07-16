@@ -9,6 +9,7 @@ series:
 tags:
 - Database
 - Go
+- Golang
 - Concurrency
 ---
 

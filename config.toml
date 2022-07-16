@@ -34,6 +34,12 @@ enableRobotsTXT = true
     title = "Categories"
     url = "/categories/"
     weight = -90
+  [[menu.main]]
+    identifier = "series"
+    name = "Series"
+    title = "Series"
+    url = "/series/"
+    weight = -80
 [params]
   header_title = "Coding Journal"                 # Your header title
   home_image = "logo.jpeg"          # Path to header image starting from the static directory
