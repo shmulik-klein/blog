@@ -1,7 +1,6 @@
 
 [![Blog CD](https://github.com/shmulik-klein/blog/actions/workflows/main.yml/badge.svg)](https://github.com/shmulik-klein/blog/actions/workflows/main.yml)
 
-
 <a href="https://gohugo.io/"><img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="565"></a>
 
 A Fast and Flexible Static Site Generator built with love by [bep](https://github.com/bep), [spf13](http://spf13.com/) and [friends](https://github.com/gohugoio/hugo/graphs/contributors) in [Go][].
