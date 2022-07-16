@@ -53,17 +53,17 @@ enableRobotsTXT = true
     backgroundColor = "#f8f9fa"
     fontColor = "#212529"
   [[params.social]]
-    fa_icon = "fab fa-twitter fa-1x"
-    href = "https://twitter.com/klein_sh"
+    fa_icon = "fab fa-github fa-1x"
+    href = "http://github.com/shmulik-klein"
   [[params.social]]
     fa_icon = "fab fa-linkedin-in fa-1x"
     href = "https://www.linkedin.com/in/shmulik-klein/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BuBzQ49WXS3K1iGjTur%2Fycw%3D%3D"
   [[params.social]]
-    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
-    href = "http://github.com/shmulik-klein"      # Link to associate with icon (http://, https://, mailto:)
-  [[params.social]]
     fa_icon = "fab fab fa-stack-overflow"
     href = "https://stackoverflow.com/users/2776473/shmulik-klein"
   [[params.social]]
+    fa_icon = "fab fa-twitter fa-1x"
+    href = "https://twitter.com/klein_sh"
+  [[params.social]]
     fa_icon = "fas fa-at fa-1x"
-    href = ""
+    href = "mailto:shmulik-klein@gmail.com"
