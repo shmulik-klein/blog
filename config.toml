@@ -1,7 +1,9 @@
 theme = 'devise'
 baseURL = 'http://shmulik-klein.github.io/'
 languageCode = 'en-us'
-title = 'Coding Journal'
+title = 'Imperfect Coding Journal'
+relativeURLs = true
+enableEmoji = true
 copyright = "&copy; Copyright 2022, Shmulik Klein"
 googleAnalytics = "G-1LHXLEKFK2"
 enableRobotsTXT = true
