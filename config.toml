@@ -1,8 +1,14 @@
 theme = 'devise'
-baseURL = 'http://example.org/'
+baseURL = 'http://shmulik-klein.github.io/'
 languageCode = 'en-us'
 title = 'Coding Journal'
 copyright = "&copy; Copyright 2022, Shmulik Klein"
+googleAnalytics = "G-1LHXLEKFK2"
+enableRobotsTXT = true
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -16,6 +22,12 @@ copyright = "&copy; Copyright 2022, Shmulik Klein"
     title = "Posts"
     url = "/posts/"
     weight = -100
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    title = "Tags"
+    url = "/tags/"
+    weight = -100
   [[menu.main]]
     identifier = "categories"
     name = "Categories"
@@ -23,9 +35,7 @@ copyright = "&copy; Copyright 2022, Shmulik Klein"
     url = "/categories/"
     weight = -90
 [params]
-  description = "Some description on me"      # Your meta description of the site
   header_title = "Coding Journal"                 # Your header title
-  header_subtitle = "Your Creative Subtitle" # Your header subtitle
   home_image = "logo.jpeg"          # Path to header image starting from the static directory
   recent_posts = 5                           # Max amount of recent posts to show
   mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts

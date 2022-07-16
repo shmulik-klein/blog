@@ -1,0 +1,33 @@
+name: Blog CD
+on: 
+  push:
+    branches:
+      - 'main'
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Git checkout and update
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.BLOG_TOKEN }}
+          external_repository: shmulik-klein/shmulik-klein.github.io
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: <username>
+          user_email: <username@email.com>
+          publish_branch: master
