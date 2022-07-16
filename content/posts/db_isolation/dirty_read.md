@@ -16,7 +16,7 @@ _Transaction_ is an atomic unit of work, sometimes made up of multiple operation
 
 When a transaction makes multiple changes to the database, either all the changes succeed when the transaction is _committed_, or all the changes are undone when the transaction is _rolled-back_.
 
-### Transactions don't socialised
+### Transactions don't socialize
 
 _Isolation_ is the 'I' in ACID (a set of properties of a database transactions intend to guarantee data validity)
 It ensures that concurrent execution of transactions will obtain the same state that would have been obtained if the transactions were executed sequentially. 
