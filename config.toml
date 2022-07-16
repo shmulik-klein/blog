@@ -1,7 +1,7 @@
 theme = 'devise'
 baseURL = 'http://shmulik-klein.github.io/'
 languageCode = 'en-us'
-title = 'Imperfect Coding Journal'
+title = 'Shmulik Klein | Blog'
 relativeURLs = true
 enableEmoji = true
 copyright = "&copy; Copyright 2022, Shmulik Klein"
@@ -44,8 +44,8 @@ enableRobotsTXT = true
     weight = -80
 [params]
   description = "My [Shmulik Klein] blog, about softeware engineering topics" # the <meta name="description"> tag
-  header_title = "Imperfect Coding Journal" # The header title
-  header_subtitle = "When you make a mistake, there are only three things you should ever do about it: admit it, learn from it, and blog it."
+  header_title = "Shmulik Klein" # The header title
+  header_subtitle = "Software Engineer | Munich, Germany"
   home_image = "logo.jpeg"          # Path to header image starting from the static directory
   recent_posts = 5                           # Max amount of recent posts to show
   mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
