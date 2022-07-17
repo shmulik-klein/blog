@@ -8,7 +8,6 @@
         <div class="pl-sm-4 ml-sm-5">
             {{ .Content }}
         </div>
-    {{ else }}
-        {{- partial "category-posts.html" . -}}
     {{ end }}
+        {{- partial "category-posts.html" . -}}
 {{ end }}

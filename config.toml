@@ -16,7 +16,7 @@ enableRobotsTXT = true
     identifier = "about"
     name = "About"
     title = "About"
-    url = "/about/"
+    url = "/"
     weight = -110
   [[menu.main]]
     identifier = "posts"
