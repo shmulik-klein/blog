@@ -1,5 +1,6 @@
 ---
 title: "Transactions Isolation #1: Dirty Read"
+description: "The first post in a series of posts about database transactions and isolation levels. This one is about read uncommited and dirty reads."
 date: 2022-05-10T11:13:37+02:00
 draft: false
 categories: 
