@@ -99,5 +99,6 @@ func main() {
 	time.Sleep(1 * time.Second)
 	tx1.Rollback()
 }
-
 ```
+
+When running the code, we see that the second transaction, `tx2`, being isolated with a `UNCOMMITED_READ` level, sees the uncommited value of Bert's balance. This value is in consistent as it wasn't commited and can be rolled back.
