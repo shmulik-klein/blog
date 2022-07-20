@@ -52,7 +52,7 @@ That's where _Pattern Matching_ and _Test Patterns_ fits in.
 
 No catch-all clause is required and the compiler can warn us if we missed a subclass of the sealed superclass.
 
-```
+```java
 int react(Sensor sensor) {
     return switch (shape) {
         case TempSensor t    -> ... t.getTemp() ...
