@@ -36,11 +36,11 @@ The JEP states that before sealed classes, the only way the reason about an obje
 ```java
 void react(Sensor sensor) {
     if (sensor instanceof TempSensor) {
-        return ...
+        return ... // do something with ((TempSensor) sensor)
     } else if (sensor instanceof ForceSensor) {
-        return ...
+        return ... // do something with ((ForceSensor) sensor)
     } else if (sensor instanceof PiezoSensor) {
-        return ...
+        return ... // do something with ((PiezoSensor) sensor)
     }
 
     // Compiler, are there any other subclasses that I need to take into accout here?
@@ -61,3 +61,4 @@ int react(Sensor sensor) {
     };
 }
 ```
+A more compact and expressive code + no need for the explict subclass cast
