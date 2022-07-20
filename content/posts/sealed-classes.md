@@ -17,14 +17,47 @@ Sealed classes and interfaces restrict which other classes or interfaces may ext
 You seal a class/interface by applying the `sealed` modifier before the `class`/`interface` keyword. Than, you have to provide which classes/interface are allowed to inherit/implement the sealed class/interface using the `permits` keyword.
 
 ```java
-public sealed class Beer permits Ale, Lager, Porter, Stout {
+public sealed class Sensor permits TempSensor, ForceSensor, PiezoSensor {
     ...
 }
 
-public final class Ale extends Beer {
+public final class TempSensor extends Sensor {
 
 }
 ```
 
 ### To Seal or not to Seal?
+Is sealing a class/interface is really a necssary feature? what does its purpose?
 
+>The purpose of sealing a class is to let client code reason clearly and conclusively about all permitted subclasses.  _JEP-360: Sealed Classes_
+
+The JEP states that before sealed classes, the only way the reason about an object sub-type, was to chain `instanceof` if-conditions. This old way required the code to have a catch-all `else` case, since the compiler couldn't know if all the subclasses were taken into account. If such a catch-all clause was missing, a compile time error would have been thrown. On the other hand such a clause is redundant, since the user knows which classes are subclasses of the superclasses, he just doesn't have a way to pass that for the compiler.
+
+```java
+void react(Sensor sensor) {
+    if (sensor instanceof TempSensor) {
+        return ...
+    } else if (sensor instanceof ForceSensor) {
+        return ...
+    } else if (sensor instanceof PiezoSensor) {
+        return ...
+    }
+
+    // Compiler, are there any other subclasses that I need to take into accout here?
+}
+```
+That's where _Pattern Matching_ and _Test Patterns_ fits in.
+
+>Instead of inspecting an instance of a sealed class with if-else, client code will be able to switch over the instance using type test patterns ([JEP 375](https://openjdk.org/jeps/375)). This allows the compiler to check that the patterns are _exhaustive_.   _JEP-360: Sealed Classes_
+
+No catch-all clause is required and the compiler can warn us if we missed a subclass of the sealed superclass.
+
+```
+int react(Sensor sensor) {
+    return switch (shape) {
+        case TempSensor t    -> ... t.getTemp() ...
+        case ForceSensor f -> ... f.getMass ...
+        case PiezoSensor p   -> ... s.getElectricCharge() ...
+    };
+}
+```
