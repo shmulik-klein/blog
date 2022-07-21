@@ -1,5 +1,6 @@
 ---
 title: "To Seal or not to Seal: Sealed Classes"
+description: "This post discuss on seal classes feature and when to use it, including pattern matching"
 date: 2022-07-20T10:42:33+02:00
 tags:
 - Development
