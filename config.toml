@@ -45,7 +45,7 @@ enableRobotsTXT = true
 [params]
   description = "My [Shmulik Klein] blog, about softeware engineering topics" # the <meta name="description"> tag
   header_title = "Shmulik Klein" # The header title
-  header_subtitle = "Software Engineer | Munich, Germany"
+  header_subtitle = "Software Engineer @ JetBrains | Munich, Germany"
   home_image = "logo.jpeg"          # Path to header image starting from the static directory
   recent_posts = 5                           # Max amount of recent posts to show
   mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
