@@ -1,6 +1,7 @@
 ### About
-Hello 👋 I’m Shmulik Klein. I live in Munich, Germany.
-I’m a senior software engineer at Ubimo. 
+Hello 👋 I’m Shmulik Klein. 
+
+I live in Munich, Germany. I’m a software engineer at JetBrains.
 
 ### Contact
 
