@@ -11,8 +11,6 @@ tags:
 - Go
 - Golang
 - Concurrency
-- Transaction
-- Isolation
 ---
 ### Phantom Menace
 

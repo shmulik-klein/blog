@@ -62,4 +62,4 @@ int react(Sensor sensor) {
     };
 }
 ```
-A more compact and expressive code + no need for the explict subclass cast
+A more compact and expressive code + no need for the explict subclass cast<br>

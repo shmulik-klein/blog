@@ -1,1 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Coding Journal</title><link>http://shmulik-klein.github.io/tags/</link><description>Recent content in Tags on Coding Journal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy; Copyright 2022, Shmulik Klein</copyright><lastBuildDate>Tue, 10 May 2022 11:13:37 +0200</lastBuildDate><atom:link href="http://shmulik-klein.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Concurrency</title><link>http://shmulik-klein.github.io/tags/concurrency/</link><pubDate>Tue, 10 May 2022 11:13:37 +0200</pubDate><guid>http://shmulik-klein.github.io/tags/concurrency/</guid><description/></item><item><title>Database</title><link>http://shmulik-klein.github.io/tags/database/</link><pubDate>Tue, 10 May 2022 11:13:37 +0200</pubDate><guid>http://shmulik-klein.github.io/tags/database/</guid><description/></item><item><title>Go</title><link>http://shmulik-klein.github.io/tags/go/</link><pubDate>Tue, 10 May 2022 11:13:37 +0200</pubDate><guid>http://shmulik-klein.github.io/tags/go/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Shmulik Klein | Blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Shmulik Klein | Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright 2022, Shmulik Klein</copyright>
+    <lastBuildDate>Thu, 15 Dec 2022 10:50:50 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Functional Programing</title>
+      <link>http://localhost:1313/tags/functional-programing/</link>
+      <pubDate>Thu, 15 Dec 2022 10:50:50 +0100</pubDate>
+      <guid>http://localhost:1313/tags/functional-programing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kotlin</title>
+      <link>http://localhost:1313/tags/kotlin/</link>
+      <pubDate>Thu, 15 Dec 2022 10:50:50 +0100</pubDate>
+      <guid>http://localhost:1313/tags/kotlin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>http://localhost:1313/tags/development/</link>
+      <pubDate>Wed, 20 Jul 2022 10:42:33 +0200</pubDate>
+      <guid>http://localhost:1313/tags/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/tags/java/</link>
+      <pubDate>Wed, 20 Jul 2022 10:42:33 +0200</pubDate>
+      <guid>http://localhost:1313/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OOP</title>
+      <link>http://localhost:1313/tags/oop/</link>
+      <pubDate>Wed, 20 Jul 2022 10:42:33 +0200</pubDate>
+      <guid>http://localhost:1313/tags/oop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concurrency</title>
+      <link>http://localhost:1313/tags/concurrency/</link>
+      <pubDate>Fri, 20 May 2022 11:13:37 +0200</pubDate>
+      <guid>http://localhost:1313/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>http://localhost:1313/tags/database/</link>
+      <pubDate>Fri, 20 May 2022 11:13:37 +0200</pubDate>
+      <guid>http://localhost:1313/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>http://localhost:1313/tags/go/</link>
+      <pubDate>Fri, 20 May 2022 11:13:37 +0200</pubDate>
+      <guid>http://localhost:1313/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>http://localhost:1313/tags/golang/</link>
+      <pubDate>Fri, 20 May 2022 11:13:37 +0200</pubDate>
+      <guid>http://localhost:1313/tags/golang/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

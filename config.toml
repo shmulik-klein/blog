@@ -62,8 +62,8 @@ enableRobotsTXT = true
     fa_icon = "fab fab fa-stack-overflow"
     href = "https://stackoverflow.com/users/2776473/shmulik-klein"
   [[params.social]]
-    fa_icon = "fab fa-twitter fa-1x"
-    href = "https://twitter.com/klein_sh"
+    fa_icon = "fab fa-x fa-1x"
+    href = "https://x.com/klein_sh"
   [[params.social]]
     fa_icon = "fas fa-at fa-1x"
     href = "mailto:shmulik-klein@gmail.com"
