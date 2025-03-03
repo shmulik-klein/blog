@@ -25,7 +25,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.BLOG_SECRET }}
+          personal_token: ${{ secrets.BLOG_SECRET }}
           external_repository: shmulik-klein/shmulik-klein.github.io
           publish_dir: ./public
           #   keep_files: true
