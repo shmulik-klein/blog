@@ -1,4 +1,4 @@
-theme = 'devise'
+theme = 'schmoklos'
 baseURL = 'http://shmulik-klein.github.io/'
 languageCode = 'en-us'
 title = 'Shmulik Klein | Blog'
