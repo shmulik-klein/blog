@@ -1,5 +1,5 @@
 ---
-title: "Must Kotlin Features for Functional Programming "
+title: "Must Kotlin Features for Functional Programming"
 date: 2022-12-15T10:50:50+01:00
 tags:
     - Kotlin
