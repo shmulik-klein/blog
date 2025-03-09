@@ -4,19 +4,21 @@ languageCode = 'en-us'
 title = 'Shmulik Klein | Blog'
 relativeURLs = true
 enableEmoji = true
-copyright = "&copy; Copyright 2022, Shmulik Klein"
+copyright = "&copy; Copyright 2025, Shmulik Klein"
 googleAnalytics = "G-1LHXLEKFK2"
 enableRobotsTXT = true
+
 [taxonomies]
   category = 'categories'
   series = 'series'
   tag = 'tags'
+
 [menu]
   [[menu.main]]
     identifier = "about"
     name = "About"
     title = "About"
-    url = "/"
+    url = "/about"
     weight = -110
   [[menu.main]]
     identifier = "posts"
@@ -24,7 +26,7 @@ enableRobotsTXT = true
     title = "Posts"
     url = "/posts/"
     weight = -100
-[[menu.main]]
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     title = "Tags"
@@ -42,13 +44,14 @@ enableRobotsTXT = true
     title = "Series"
     url = "/series/"
     weight = -80
+
 [params]
   description = "My [Shmulik Klein] blog, about softeware engineering topics" # the <meta name="description"> tag
   header_title = "Shmulik Klein" # The header title
   header_subtitle = "Software Engineer @ JetBrains | Munich, Germany"
   home_image = "logo.jpeg"          # Path to header image starting from the static directory
   recent_posts = 5                           # Max amount of recent posts to show
-  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+  mainSections = ["posts"]   # Main sections to include in recent posts
   [params.style]                             # CSS style overrides
     backgroundColor = "#f8f9fa"
     fontColor = "#212529"
@@ -59,11 +62,11 @@ enableRobotsTXT = true
     fa_icon = "fab fa-linkedin-in fa-1x"
     href = "https://www.linkedin.com/in/shmulik-klein/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BuBzQ49WXS3K1iGjTur%2Fycw%3D%3D"
   [[params.social]]
-    fa_icon = "fab fab fa-stack-overflow"
+    fa_icon = "fab fa-stack-overflow"
     href = "https://stackoverflow.com/users/2776473/shmulik-klein"
   [[params.social]]
-    fa_icon = "fab fa-x fa-1x"
+    fa_icon = "fab fa-x-twitter fa-1x"
     href = "https://x.com/klein_sh"
   [[params.social]]
-    fa_icon = "fas fa-at fa-1x"
+    fa_icon = "fas fa-envelope fa-1x"
     href = "mailto:shmulik-klein@gmail.com"
