@@ -1,0 +1,3 @@
+[submodule "themes/schmoklos"]
+	path = themes/schmoklos
+	url = https://github.com/shmulik-klein/schmucklos.git
