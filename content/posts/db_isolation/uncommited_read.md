@@ -10,7 +10,6 @@ series:
 tags:
 - Database
 - Go
-- Golang
 - Concurrency
 ---
 ### Transactions don't socialize

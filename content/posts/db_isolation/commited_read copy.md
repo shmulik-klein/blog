@@ -9,7 +9,6 @@ series:
 tags:
 - Database
 - Go
-- Golang
 - Concurrency
 ---
 ### Phantom Menace
