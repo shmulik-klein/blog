@@ -1,3 +1,7 @@
+---
+hideReadingTime: true
+---
+
 ### About
 Hey there! 👋
 
