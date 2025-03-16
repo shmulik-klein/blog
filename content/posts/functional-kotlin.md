@@ -21,7 +21,7 @@ fun x(y: (Int) -> Int) {
 }
 {{< /highlight >}}
 
-{{< callout >}} Your text for callout goes here {{< /callout >}}
+{{< callout >}} It is a good practice to use Named Arguments to the function's parameter list types, especially when the list is long and its meaning is unclear{{< /callout >}}
 
 {{< callout >}} When the function type is long (lots of arguments or just using named arguments) and repetitive, it's nicer to use Kotlin's  type aliases. {{< /callout >}}
 
