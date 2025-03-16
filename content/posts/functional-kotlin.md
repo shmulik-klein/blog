@@ -48,3 +48,8 @@ When a lambda expression is the only parameter for a function, the brackets are 
 _Function Reference_ are complemtery to lambda expressions - instead of creating a new function object we can refer an existing function. 
 
 We refer to a top-level function using a `::` and the function name - `val f = ::topLevelFunctionName`.
+
+### Inline Functions
+Using functions with functional parameters ("high order-functions") has some performence penalties - when calling such a function, objects need to be created for the parameters, this causes a runtime overhead.
+
+This a great oppurtuntiy to use Kotlin's `inline` modifier.
