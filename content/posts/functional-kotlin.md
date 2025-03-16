@@ -5,7 +5,8 @@ tags:
   - Kotlin
   - Functional Programing
 ---
-Coming from Java, these are the features that let's Kotlin to be a functional programming language:
+Kotlin takes Java’s functional programming features, gives them a makeover, and makes them way cooler. It’s like Java went to a coding gym and came back stronger and sleeker. In this post, we’ll check out how Kotlin takes Java’s functional side to the next level, making your code cleaner and way more fun to write.
+
 ### Function Types
 Functions are [_first class citizens_](https://en.wikipedia.org/wiki/First-class_function) in Kotlin. To facilitate this, Kotlin has a [_Fuction Type_](https://kotlinlang.org/docs/lambdas.html#function-types) - a type which specifies that an object needs to be a function.
 
