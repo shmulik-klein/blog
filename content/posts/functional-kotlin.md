@@ -44,5 +44,7 @@ callingMyFunction(param1: Int, param2: String) {
 
 When a lambda expression is the only parameter for a function, the brackets are needed at all and can be omitted.
 
-### Methods Reference
-_Methods Reference_ are complemtery to lambda expressions - instead of creating a new function object we can refer an existing function. We refer to a function using a `::` and the function name - `val f = ::functionName`.
+### Function Reference
+_Function Reference_ are complemtery to lambda expressions - instead of creating a new function object we can refer an existing function. 
+
+We refer to a top-level function using a `::` and the function name - `val f = ::topLevelFunctionName`.
