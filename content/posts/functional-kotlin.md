@@ -10,7 +10,7 @@ Kotlin takes Java’s functional programming features, gives them a makeover, an
 ### Function Types
 Functions are [_first class citizens_](https://en.wikipedia.org/wiki/First-class_function) in Kotlin. To facilitate this, Kotlin has a [_Fuction Type_](https://kotlinlang.org/docs/lambdas.html#function-types) - a type which specifies that an object needs to be a function.
 
-To decalre it, one should wrap the types of the arguments this function expected to recieve in brackets, an arrow (`->`) and then the result type of the function (if the function doesn't return anything _significant_ it should return a `Unit`), something like this `() -> Unit` or this `(Int, Int) -> Int`. 
+To decalre it, one should wrap the types of the arguments this function expected to recieve in brackets, an arrow (`->`) and then the result type of the function (if the function doesn't return anything _significant_ it should return a `Unit`), something like this `() -> Unit` or this `(Int, Int) -> Int` (recall how cumbersome this in Java, aka. `@FunctionalInterface`).
 
 A function type offers only one method `invoke()` - which has the same arguments and result type as the function type that defines it. Since `invoke()` is an operator, we can call it implcitly:
 
