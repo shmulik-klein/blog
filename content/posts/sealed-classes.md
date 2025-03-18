@@ -10,8 +10,6 @@ categories:
 - Development
 ---
 
-### Sealed with a Kiss
-
 Java 15 introduced a preview feature called [Sealed Classes and Intefaces](https://openjdk.org/jeps/360), which was finalized in Java 17.
 Sealed classes and interfaces restrict which other classes or interfaces may extend or implement them.
 
@@ -27,7 +25,7 @@ public final class TempSensor extends Sensor {
 }
 ```
 
-### To Seal or not to Seal?
+### To seal or not to seal?
 Is sealing a class/interface is really a necssary feature? what does its purpose?
 
 >The purpose of sealing a class is to let client code reason clearly and conclusively about all permitted subclasses.  _JEP-360: Sealed Classes_
