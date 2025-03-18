@@ -66,10 +66,9 @@ fun filterList(numbers: List<Int>, predicate: (Int) -> Boolean): List<Int> {
 val isEven: (Int) -> Boolean = { it % 2 == 0 }
 
 fun main() {
-  val numbers = listOf(1, 2, 3, 4, 8, 9, 10)
-    val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-    val evenNumbers = filterList(numbers, isEven)
-    println(evenNumbers) // Output: [2, 4, 6, 8, 10]
+  val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+  val evenNumbers = filterList(numbers, isEven)
+  println(evenNumbers) // Output: [2, 4, 6, 8, 10]
 }
 {{< /highlight >}}
 
