@@ -50,6 +50,27 @@ _Function Reference_ are complemtery to lambda expressions - instead of creating
 We refer to a top-level function using a `::` and the function name - `val f = ::topLevelFunctionName`.
 
 ### Inline Functions
-Using functions with functional parameters ("high order-functions") has some performence penalties - when calling such a function, objects need to be created for the parameters, this causes a runtime overhead.
+Using functions with functional parameters (_High Order-Functions_) has some performence penalties - when calling such a function, objects are created for each lambda expression, which can have a performance overhead. This a great oppurtuntiy to use Kotlin's `inline` keyword - when adding it to a function with functional parameters - the function together with its lambdad expression are inlined.
 
-This a great oppurtuntiy to use Kotlin's `inline` modifier.
+{{< highlight kotlin >}}
+fun filterList(numbers: List<Int>, predicate: (Int) -> Boolean): List<Int> {
+    val result = mutableListOf<Int>()
+    for (number in numbers) {
+        if (predicate(number)) {
+            result.add(number)
+        }
+    }
+    return result
+}
+
+val isEven: (Int) -> Boolean = { it % 2 == 0 }
+
+fun main() {
+  val numbers = listOf(1, 2, 3, 4, 8, 9, 10)
+    val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val evenNumbers = filterList(numbers, isEven)
+    println(evenNumbers) // Output: [2, 4, 6, 8, 10]
+}
+{{< /highlight >}}
+
+Another benefit of inlining a function with a functional parameters is having a _non-local_ return.
