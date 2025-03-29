@@ -5,10 +5,10 @@ tags:
   - Kotlin
   - Functional Programing
 ---
-Kotlin takes Java’s functional programming features, gives them a makeover, and makes them way cooler. It’s like Java went to a coding gym and came back stronger and sleeker. In this post, we’ll check out how Kotlin takes Java’s functional side to the next level, making your code cleaner and way more fun to write.
+Java's approach to functional programming, while possible, often feels indirect, particularly when dealing with function types. The need for explicit interfaces, like `Function<T,R>`, `Consumer<T>`, or custom ones, can lead to verbose and somewhat convoluted code. Kotlin, on the other hand, introduces [first-class function types](https://en.wikipedia.org/wiki/First-class_function), allowing for a more streamlined and expressive syntax. This distinction fundamentally alters the way higher-order functions are handled, impacting readability and maintainability. This blog post discuss these differences and highlights the main language features Kotlin provides for Functional Programming.
 
 ### Function Types
-Functions are [_first class citizens_](https://en.wikipedia.org/wiki/First-class_function) in Kotlin. To facilitate this, Kotlin has a [_Fuction Type_](https://kotlinlang.org/docs/lambdas.html#function-types) - a type which specifies that an object needs to be a function.
+Functions are [first class citizens](https://en.wikipedia.org/wiki/First-class_function) in Kotlin. To facilitate this, Kotlin has a [Fuction Type](https://kotlinlang.org/docs/lambdas.html#function-types) - a type which specifies that an object needs to be a function.
 
 To decalre it, one should wrap the types of the arguments this function expected to recieve in brackets, an arrow (`->`) and then the result type of the function (if the function doesn't return anything _significant_ it should return a `Unit`), something like this `() -> Unit` or this `(Int, Int) -> Int` (recall how cumbersome this in Java, aka. `@FunctionalInterface`).
 
