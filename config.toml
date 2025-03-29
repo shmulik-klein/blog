@@ -70,3 +70,6 @@ enableRobotsTXT = true
   [[params.social]]
     fa_icon = "fas fa-envelope fa-1x"
     href = "mailto:shmulik-klein@gmail.com"
+[services]
+  [services.disqus]
+    shortname = 'shmulikklein'
