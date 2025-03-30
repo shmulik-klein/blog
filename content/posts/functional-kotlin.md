@@ -1,6 +1,7 @@
 ---
 title: "Must-known Kotlin Features for Functional Programming"
 date: 2022-12-15T10:50:50+01:00
+description: "Explore the key features that makes functional programming in Kotlin a pleasure, including function types, lambda expressions, and method references"
 tags:
   - Kotlin
   - Functional Programing
