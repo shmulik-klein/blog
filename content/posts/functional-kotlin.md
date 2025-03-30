@@ -5,7 +5,11 @@ tags:
   - Kotlin
   - Functional Programing
 ---
-Java's approach to functional programming, while possible, often feels indirect, particularly when dealing with function types. The need for explicit interfaces, like `Function<T,R>`, `Consumer<T>`, or custom ones, can lead to verbose and somewhat convoluted code. Kotlin, on the other hand, introduces [first-class function types](https://en.wikipedia.org/wiki/First-class_function), allowing for a more streamlined and expressive syntax. This distinction fundamentally alters the way higher-order functions are handled, impacting readability and maintainability. This blog post discuss these differences and highlights the main language features Kotlin provides for Functional Programming.
+Java's approach to functional programming, while possible, often feels indirect, particularly when dealing with function types. The need for explicit interfaces, like `Function<T,R>`, `Consumer<T>`, or custom ones, can lead to verbose and somewhat convoluted code. 
+
+Kotlin, on the other hand, introduces [first-class function types](https://en.wikipedia.org/wiki/First-class_function), allowing for a more streamlined and expressive syntax. This distinction fundamentally alters the way higher-order functions are handled, impacting readability and maintainability. 
+
+This blog post discuss these differences and highlights the main language features Kotlin provides for Functional Programming.
 
 ### Function Types
 Functions are [first class citizens](https://en.wikipedia.org/wiki/First-class_function) in Kotlin. To facilitate this, Kotlin has a [Fuction Type](https://kotlinlang.org/docs/lambdas.html#function-types) - a type which specifies that an object needs to be a function.
