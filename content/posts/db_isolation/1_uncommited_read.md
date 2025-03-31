@@ -18,7 +18,7 @@ A _Database Transaction_ is an atomic unit of work, sometimes made up of multipl
 
 When a transaction makes multiple changes to the database, either all the changes succeed when the transaction is _committed_, or all the changes are undone when the transaction is _rolled-back_.
 
-_Isolation_ is the 'I' in ACID (a set of properties of a database transactions intend to guarantee data validity)
+_Isolation_ is the 'I' in [ACID](https://en.wikipedia.org/wiki/ACID) (a set of properties of a database transactions intend to guarantee data validity)
 It ensures that concurrent execution of transactions will obtain the same state that would have been obtained if the transactions were executed sequentially. 
 
 When executing transactions, we can choose differnt levels of isolation, which sets the tradeoff between performance and reliability.
